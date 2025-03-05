@@ -22,10 +22,19 @@ Exploratory Data Analysis
 EDA was conducted to identify patterns and relationships within the dataset.
 
 Plotted various plots like histogram and scatter plots to check the distribution of the features. Also used bar plots to check how each variable affects the survival chances and how long it takes if there is any chance of reoccurrence of the disease conditions or time for graft rejection i.e., event free survival time.
+
 Observing how graft type has affected the efs time for different patients and how it is getting affected with related to the  age of the donor and age of the recipient at the time of the haemopoietic cell transplantation.
 
 Feature Engineering
 
 For further analysis we converted all the categorical values to numerical values tried using both encoding techniques label encoding and one hot encoding, Our goal is to predict the feature importances for Selected the most relevant features based on correlation and domain knowledge which has great effect on the target variable and choosing it for further analysis.
+
+UPGRADES
+
+I have also used boxplot visualization to find out the outliers, and then concatinated both categorical and numerical features and used RobustScaler that is robust to outliers and would perform better than standard scaler in case of outliers. I utilized PCA dimensionality technique to reduce the dimensions and calculate number of features to retain 95% variance.
+
+I have used the PCA scaled data to fit the Random Forest Classifier and plotted a graph to select out the important features using feature selection in descending order. Also used Decision Tree Classifier to check its performance and how much it differs from Random Forest
+
+
 
 
