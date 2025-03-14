@@ -36,5 +36,11 @@ I have also used boxplot visualization to find out the outliers, and then concat
 I have used the PCA scaled data to fit the Random Forest Classifier and plotted a graph to select out the important features using feature selection in descending order. Also used Decision Tree Classifier to check its performance and how much it differs from Random Forest
 
 
+Recent Upgrades:
+
+Earlier to fit the Random Forest Classifier I used X_scaled instead of PCA scaled data, which automatically filtered the dataset to 28 features.
+
+
+
 
 
