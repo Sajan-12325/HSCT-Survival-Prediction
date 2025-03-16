@@ -41,6 +41,11 @@ Recent Upgrades:
 Earlier to fit the Random Forest Classifier I used X_scaled instead of PCA scaled data, which automatically filtered the dataset to 28 features.
 
 
+### Other Models
+
+I have added other models like the ensemble methods - boosting techniques say Adaboost and gradient boosting classifier to predict the event free survival, gradient boosting performed better than Rando forest, while the Adaboost reached a 90% accuracy.
+
+
 
 
 
