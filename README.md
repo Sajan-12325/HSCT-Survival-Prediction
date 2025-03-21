@@ -45,6 +45,9 @@ Earlier to fit the Random Forest Classifier I used X_scaled instead of PCA scale
 
 I have added other models like the ensemble methods - boosting techniques say Adaboost and gradient boosting classifier to predict the event free survival, gradient boosting performed better than Rando forest, while the Adaboost reached a 90% accuracy.
 
+*** Placed Adaboosting and gradient boosting side by side for better clarification
+
+
 
 
 
