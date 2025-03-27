@@ -50,6 +50,7 @@ I have added other models like the ensemble methods - boosting techniques say Ad
 
 ** Utilised Shap to extract how each feature is contributing to the final outcome, It displays a clear output of each feature.
 
+** Added Shap at three different positions- before standardizing the data, after standardization, and after dimensionality reduction on XGBOOST Classifier Model.
 
 
 
